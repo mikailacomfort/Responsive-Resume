@@ -122,8 +122,8 @@ ul > li {
 }
 
 img {
-width: 50%;
-height: 90%;
+  width: 50%;
+  height: 90%;
 }
 
 .qualifications {
@@ -156,116 +156,101 @@ font-weight: bold;
 /* Extra Small and up (Portrait Phones) */
 
 @media (max-width: 576px) {
-  html {
-    border: solid red 2px;
-      }
-      h1 {
-        font-size: 12px;
-      }
-      .row > h3 {
-        margin-right: 20%;
-      }
-      .method {
-        font-size: 9px;
-      }
-      .bio > p {
-        font-size: 8px;
+    h1 {
+    font-size: 12px;
+    }
+    .row > h3 {        
+    margin-right: 20%;
+    }
+    .method {
+    font-size: 9px;
+    }
+    .bio > p {
+    font-size: 8px;
     }
     .work-experience > h2 {
     font-size: 22px;
     }
     .column {
-      height: 85%;
-      font-size: 12px;
+    height: 85%;
+    font-size: 12px;
     }
     .row > h4 {
-      font-size: 20px;
+    font-size: 20px;
     }
     .row > h3 {
-      margin-right: 15%;
-      font-size: 20px;
+    margin-right: 15%;
+    font-size: 20px;
     }
-
       }
   
-
 /* Small and up (Landscape Phones) */
   @media (min-width: 576px) {
-    html {
-border: solid blue 2px;
-  }
-  h1 {
+    h1 {
     font-size: 16px;
-  }
-  .row > h3 {
+    }
+    .row > h3 {
     margin-right: 20%;
-    
-  }
-  .method {
+    }
+    .method {
     font-size: 8px;
-  }
-  .bio > p {
+    }
+    .bio > p {
     font-size: 12px;
-}
-.work-experience > h2 {
-font-size: 22px;
-}
-.column {
-  height: 85%;
-  font-size: 12px;
-}
+    }
+    .work-experience > h2 {
+    font-size: 22px;
+    }
+    .column {
+    height: 85%;
+    font-size: 12px;
+  }
 }
 
 
 /* Medium and up (Tablets) */
   @media (min-width: 768px) {
-    html {
-      border: solid pink 2px;
-        }
-    h1 {
-        font-size: 22px;
-        }
-        .row > h3 {
-          margin-right: 35%;
-        }
-        .method {
-          font-size: 12px;
-        }
-        .bio > p {
-          font-size: 14px;
-        }
-        .work-experience > h2{
-          font-size: 22px;
-        }
-        .column {
-          height: 90%;
-          font-size: 16px;
+      h1 {
+      font-size: 22px;
+      }
+      .row > h3 {
+      margin-right: 35%;
+      }
+      .method {
+      font-size: 12px;
+      }
+      .bio > p {
+      font-size: 14px;
+      }
+      .work-experience > h2{
+      font-size: 22px;
+      }
+      .column {
+      height: 90%;
+      font-size: 16px;
         }
       }
 /* Large and up (Desktops) */
   @media (min-width: 992px) {
-    h1 {
-    font-size: 30px;
-    }
-    html {
-    border: solid green 3px;
-    }
-    .row > h3 {
+      h1 {
+      font-size: 30px;
+      }
+      .row > h3 {
       margin-right: 40%;
-    }
-    .method {
+      }
+      .method {
       font-size: 16px;
-    }
-    .work-experience > h2{
+      }
+      .work-experience > h2{
       font-size: 24px;
-    }
-    .column {
+      }
+      .column {
       height: 90%;
       font-size: 18px;
-    }
-    .bio > p {
+      }
+      .bio > p {
       font-size: 16px;
-  }}
+   }}
     
   /* Extra Large and up (Wide Screen Desktops) */
   @media (min-width: 1200px) {
